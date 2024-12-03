@@ -5,7 +5,7 @@ public class Piatto {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Crea un Piatto");
+        System.out.println("Crea un Piatto!");
         System.out.print("Inserisci il nome del piatto: ");
         String nome = sc.nextLine();
 
@@ -37,7 +37,7 @@ public class Piatto {
         System.out.print("Inserisci variazioni: ");
         String variazioni = sc.nextLine();
 
-        System.out.println("\n--------------------------\n1");
+        System.out.println("\n--------------------------\n");
         System.out.println("Perfetto! Hai Creato il piatto: "+ nome);
         System.out.println("Descrizione: " + descrizione);
         System.out.println("Prezzo: " + prezzo + "€");
