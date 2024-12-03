@@ -37,7 +37,7 @@ public class Piatto {
         System.out.print("Inserisci variazioni: ");
         String variazioni = sc.nextLine();
 
-        System.out.println("--------------------------");
+        System.out.println("\n--------------------------\n1");
         System.out.println("Perfetto! Hai Creato il piatto: "+ nome);
         System.out.println("Descrizione: " + descrizione);
         System.out.println("Prezzo: " + prezzo + "€");
