@@ -1,3 +1,55 @@
+# Ignora file compilati
+*.class
 
-Piatto/.DS_Store
+# Ignora file di log
+*.log
+
+# Ignora file di configurazione di Visual Studio Code
+.vscode/
+
+# Ignora impostazioni IDE
+# Eclipse
+/.classpath
+/.project
+/.settings/
+/bin/
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+
+# NetBeans
+/nbproject/private/
+/build/
+/dist/
+
+# Ignora file di sistema
 .DS_Store
+Thumbs.db
+
+# Ignora build tools
+/target/  # Maven e Gradle
+/build/   # Gradle
+
+# Ignora file di configurazione temporanea
+*.tmp
+*.swp
+*.bak
+
+# Ignora file di package manager
+/.mvn/
+/.gradle/
+
+# Ignora librerie scaricate (opzionale)
+/lib/
+/*.jar
+
+# Ignora configurazioni personalizzate
+*.properties
+*.yaml
+*.yml
+*.env
+
+# Ignora file di test
+/test-output/
